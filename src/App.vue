@@ -59,7 +59,7 @@
 
     	<div class="css-intro">
     		<div class="css-intro-title">
-            <img class="css-intro-title-img" src="./assets/img/ask.png" />
+            <img class="css-intro-title-img" src="./assets/img/icon_Ask.png" />
       			<div class="css-intro-title-ask">什么是搭搭家？</div>
     		</div>
     		<div class="css-intro-content">
@@ -68,7 +68,7 @@
     	</div>
     	<div class="css-intro">
     		<div class="css-intro-title" style="padding:0px 0% 0px 40%;">
-            <img class="css-intro-title-img" src="./assets/img/ask.png" />
+            <img class="css-intro-title-img" src="./assets/img/icon_Ask.png" />
       			<div class="css-intro-title-ask">搭搭家解决什么问题？</div>
     		</div>
         <div class="css-intro-content2" style="width:790px;">
@@ -99,8 +99,60 @@
                   每间家具厂，每年都会推出新产品，但是旧图册是没办法瞬间更新的，又只能重新排版，重新印刷，年复一年不断付出高成本的图册费用，软件则不存在这种问题，随时上传，随时更新，随时传播，随时编辑，而且我们的软件是一次性收费，每年只需要付极少的网络空间储存费用，就可以使用了，成本大大的降低了。
                 </div>
         			</div>
-        		<div class="clear"></div>
-        		</div>
+    		</div>
+        <div class="clear"></div>
+    	</div>
+
+
+    	<div class="css-intro">
+    		<div class="css-intro-title">
+            <img class="css-intro-title-img" src="./assets/img/icon_DA.png" />
+      			<div class="css-intro-title-ask">搭搭家功能介绍</div>
+    		</div>
+    		<div class="css-intro-content3" style="width:845px;">
+      			<div class="css-intro-content3-card">
+      					<div style="height:50%">
+                    <img class="css-intro-content3-card-icon" src="./assets/img/func_Build.png" />
+                    <div class="css-intro-content3-card-name" >快速搭配</div>
+            				<div class="css-intro-content3-card-desc">
+                      强大的智能搭配功能，销售人员能帮客户3秒内完成产品搭配方案展示
+                    </div>
+                </div>
+
+                  <div style="height:50%">
+                      <img class="css-intro-content3-card-icon" src="./assets/img/func_3D.png" />
+                      <div class="css-intro-content3-card-name">3D展现</div>
+                      <div class="css-intro-content3-card-desc">
+                        3D虚拟现实效果,720全景展示,让客户马上看出一整个系列搭配下来的空间效果，如同身临其境
+                      </div>
+                  </div>
+      			</div>
+
+      			<div class="css-intro-content3-card2" style="">
+                <img class="css-intro-content3-card2-img" src="./assets/img/img_funcIntro.png" />
+            </div>
+
+              <div class="css-intro-content3-card" style="margin-left:30px;">
+
+                <div style="height:50%">
+                    <img class="css-intro-content3-card-icon" src="./assets/img/func_Spread.png" />
+                    <div class="css-intro-content3-card-name">高速传播</div>
+                    <div class="css-intro-content3-card-desc">
+                      高速传播,微信,朋友圈,QQ,微博,随时随地传播品牌信息,大大提高了线下业务人员的营销效率
+                    </div>
+                </div>
+
+                  <div style="height:50%">
+                      <img class="css-intro-content3-card-icon" src="./assets/img/func_Storage.png" />
+                      <div class="css-intro-content3-card-name">可视化数据</div>
+                      <div class="css-intro-content3-card-desc">
+                        数据化运营,将一切可记录的数据可视化，综合情况，让厂家在产品设计，地区性销售策略有了可靠的数据支持
+                      </div>
+                  </div>
+      			</div>
+      			<!-- clear用作撑开浮动元素div -->
+      					<div class="clear"></div>
+      		</div>
     	</div>
   </div>
 </template>
@@ -261,6 +313,7 @@ export default {
 }
 /*介绍栏*/
 .css-intro{
+  float:left;
 	width: 100%;
 	margin-top: 80px;
 	padding: 20px;
@@ -284,8 +337,46 @@ export default {
       line-height: 45px;
     }
   }
+  .css-intro-content3 {
+      width: 1200px;
+      margin: 0 auto;
+      font-size: 12px;
+      margin-top: 20px;
+      color: #606B70;
 
-  .css-intro-content2{
+      .css-intro-content3-card {
+        float:left;
+        width:26%;
+        height:300px;
+        .css-intro-content3-card-icon {
+          padding: 5px;
+          width: 20%;
+          height: 40px;
+        }
+        .css-intro-content3-card-name {
+          font-size: 14px;
+          color: black;
+          font-weight: bold;
+        }
+        .css-intro-content3-card-desc {
+          margin-top: 10px;
+          font-family: '宋体';
+          color: #676767;
+        }
+      }
+      .css-intro-content3-card2 {
+        margin-left:35px;
+        float:left;
+        width:40%;
+        height:300px;
+        padding: 15px 0px;
+
+        .css-intro-content3-card2-img {
+          height: 97%;
+        }
+      }
+  }
+  .css-intro-content2 {
     width: 1200px;
     margin: 0 auto;
     font-size: 12px;
@@ -294,7 +385,6 @@ export default {
     .css-intro-content2-card {
       float:left;
       width:210px;
-      height:300px;
       &.marginLf {
         margin-left:80px;
       }
@@ -315,7 +405,7 @@ export default {
       }
     }
   }
-  .css-intro-content{
+  .css-intro-content {
   	width: 550px;
   	margin: 0 auto;
   	font-size: 14px;
