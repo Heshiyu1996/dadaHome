@@ -77,27 +77,25 @@
                   <img class="css-intro-content2-card-icon" src="./assets/img/onCloud.png" />
                   <div class="css-intro-content2-card-name">云端技术</div>
                 </div>
-        				<div style="height:70%">
+        				<div class="css-intro-content2-card-desc extraH">
                   大部分家具厂家依然停留在纸质媒介的传统传播手段，如图册，折页等，但非常遗憾，这种传统的传播途径明显已经跟不上移动网络时代传播的节奏和脚步，通过搭搭家APP系统的云端技术，网络传播，轻松打通所有客户渠道，所有的经销商，专卖店，只要下载一个软件，就能轻松开始做营销了!
                 </div>
         			</div>
-
-        			<div class="css-intro-content2-card" style="margin-left:80px;">
+        			<div class="css-intro-content2-card marginLf">
         				<div style="height:30%">
                   <img class="css-intro-content2-card-icon" src="./assets/img/onSpace.png" />
                   <div class="css-intro-content2-card-name">海量空间</div>
                 </div>
-        				<div style="height:70%">
+        				<div class="css-intro-content2-card-desc extraH" style="">
                   每间家具厂家都有大量的产品图片需要处理，但大部分还是停留在简单的单张图片保存，整理效率和传播效率都非常低下，通过软件后台有序列地管理，大大提高整理效果和产品档案归类，并且能够通过网络瞬间传播，这是纸质媒介没办法达到的效果，而且云端海量空间，再多的图片也不用担心。
                 </div>
         			</div>
-
-        			<div class="css-intro-content2-card" style="margin-left:80px;">
+        			<div class="css-intro-content2-card marginLf">
         				<div style="height:30%">
                   <img class="css-intro-content2-card-icon" src="./assets/img/onUpdate.png" />
                   <div class="css-intro-content2-card-name">灵活更新</div>
                 </div>
-        				<div style="height:70%">
+        				<div class="css-intro-content2-card-desc" style="height:70%">
                   每间家具厂，每年都会推出新产品，但是旧图册是没办法瞬间更新的，又只能重新排版，重新印刷，年复一年不断付出高成本的图册费用，软件则不存在这种问题，随时上传，随时更新，随时传播，随时编辑，而且我们的软件是一次性收费，每年只需要付极少的网络空间储存费用，就可以使用了，成本大大的降低了。
                 </div>
         			</div>
@@ -297,6 +295,9 @@ export default {
       float:left;
       width:210px;
       height:300px;
+      &.marginLf {
+        margin-left:80px;
+      }
       .css-intro-content2-card-icon {
         padding: 5px;
         width: 30%;
@@ -304,6 +305,13 @@ export default {
       .css-intro-content2-card-name {
         font-size: 14px;
         color: black;
+      }
+      .css-intro-content2-card-desc {
+        font-family: '宋体';
+        color: #676767;
+        &.extraH {
+          height:70%
+        }
       }
     }
   }
