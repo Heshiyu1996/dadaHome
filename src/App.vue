@@ -1,13 +1,17 @@
 <template>
   <div>
       <div id="header-2017">
-    		<div class="css-login">
-          <a href="#">
-            登录
-          </a>|
-          <a href="#">
-            注册
-          </a>
+    		<div class="css-login" style="display:flex">
+          <div style="flex:2"></div>
+          <div class="css-login-btn">
+            <a href="#">
+              登录
+            </a>|
+            <a href="#">
+              注册
+            </a>
+          </div>
+            <div style="flex:2"></div>
     		</div>
     		<div class="css-header">
     			<div class="css-header-left">
@@ -54,7 +58,6 @@
           </a>
         </div>
         <div class="clear"></div>
-        <div >2</div>
       </div>
     	<div class="css-intro">
     		<div class="css-intro-title">
@@ -294,7 +297,8 @@ export default {
 	height: 100px;
 	background: #fff;
   position:fixed;
-  border-bottom:1px solid gray;
+  border-bottom:1px solid #CFCFCF;
+  box-shadow: 0 0 5px #888;
   z-index:999;
 }
 
@@ -307,12 +311,16 @@ export default {
 .css-login {
 	width: 100%;
   text-align: right;
-  padding: 5px 40px;
+  padding: 5px 0px;
   margin:0 auto;
   height: 30px;
   background-color: #E1E1E1;
   font-size: 12px;
   color:#666666;
+  .css-login-btn {
+    width:1140px;
+    padding-right:30px
+  }
 }
 .css-header {
   width:1140px;
