@@ -180,12 +180,12 @@
           </div>
         </div>
       </div>
-      <div class="css-intro">
+      <div class="css-intro" style="margin-top:25px">
     		<div class="css-intro-title">
             <img class="css-intro-title-img" width="41px" height="41px" src="./assets/img/icon_Fire.png" />
       			<div class="css-intro-title-ask">火炬3D设计团队</div>
     		</div>
-    		<div class="css-intro-content"  style="width:600px">
+    		<div class="css-intro-content"  style="width:600px;height:150px;padding:40px 0px;">
     			我司旗下的火炬3D设计团队,拥有多位资深3D设计师,专门为家具厂家客户,家具电商客户提供专业的3D效果设计服务,也为搭搭家APP用户提供重要的效果设计支持!我们团队提供完整优质的3D服务,包括产品建模,场景设计,效果渲染,3D动画视频制作等
     		</div>
 
