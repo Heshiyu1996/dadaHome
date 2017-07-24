@@ -125,7 +125,7 @@
                   </div>
       			</div>
 
-      			<div class="css-intro-content3-card2" style="">
+      			<div class="css-intro-content3-card2">
                 <img class="css-intro-content3-card2-img" src="./assets/img/img_funcIntro.png" />
             </div>
 
@@ -169,7 +169,6 @@
     			</div>
     		</div>
     	</div>
-
       <div class="css-shower2">
         <div class="css-shower2-title">
           <div>什么是家具产品3D效果设计</div>
@@ -223,6 +222,62 @@
 				</div>
 
     	</div>
+
+      <div class="css-intro">
+    		<div class="css-intro-title">
+      			<div class="css-intro-title-ask" style="border-bottom:0px solid white">客户案例</div>
+    		</div>
+        <div class="css-intro-content3" style="width:845px;">
+          <div class="css-intro-content3-example">
+            <div class="css-intro-content3-example-item">
+              <img src="./assets/img/cus_P1.jpg" />
+              <div style="">舒适健康床垫</div>
+    				</div>
+            <div class="css-intro-content3-example-item">
+              <img src="./assets/img/cus_P1.jpg" />
+              <div style="">高级牛皮地毯</div>
+    				</div>
+            <div class="css-intro-content3-example-item">
+              <img src="./assets/img/cus_P1.jpg" />
+              <div style="">现代茶几电视柜组合</div>
+    				</div>
+          </div>
+          <div class="css-intro-content3-example">
+            <div class="css-intro-content3-example-item">
+              <img src="./assets/img/cus_P4.jpg" />
+              <div style="">高档美式沙发</div>
+    				</div>
+            <div class="css-intro-content3-example-item">
+              <img src="./assets/img/cus_P5.jpg" />
+              <div style="">快乐儿童木床</div>
+    				</div>
+            <div class="css-intro-content3-example-item">
+              <img src="./assets/img/cus_P6.jpg" />
+              <div style="">北欧简约皮床</div>
+    				</div>
+          </div>
+          <div class="css-intro-content3-example">
+            <div class="css-intro-content3-example-item">
+              <img src="./assets/img/cus_P7.jpg" />
+              <div style="">高档办公沙发</div>
+    				</div>
+            <div class="css-intro-content3-example-item">
+              <img src="./assets/img/cus_P8.jpg" />
+              <div style="">高档美式实木床</div>
+    				</div>
+            <div class="css-intro-content3-example-item">
+              <img src="./assets/img/cus_P9.jpg" />
+              <div style="">板式高低儿童床</div>
+    				</div>
+          </div>
+        </div>
+        <div class="css-intro-btnmore">
+          <a href="#">
+            <span>查看更多</span>
+          </a>
+        </div>
+      </div>
+      <div class="clear"></div>
   		<div class="clear"></div>
   </div>
 </template>
@@ -468,6 +523,32 @@ export default {
           }
         }
       }
+      .css-intro-content3-example {
+        width:100%;
+        height:235px;
+        margin-top: 35px;
+        img {
+          float:left;
+          width:260px;
+          height:200px;
+        }
+        .css-intro-content3-example-item {
+          float:left;
+          border:1px solid #D2D2D2;
+          width:31%;
+          height:100%;
+          margin:0px 9px;
+          div {
+            height:30px;
+            width:100%;
+            float:left;
+            font-size:15px;
+            margin:2px 0px;
+            padding:4px 0px;
+
+          }
+        }
+      }
   }
   .css-intro-content2 {
     width: 1200px;
@@ -504,6 +585,41 @@ export default {
   	font-size: 14px;
   	color: #676767;
     text-align: left;
+  }
+  /*查看更多*/
+  .css-intro-btnmore {
+    	text-align: center;
+    	margin-top: 30px;
+
+    a{
+    	display: inline-block;
+    	width: 260px;
+    	height: 56px;
+    	line-height: 54px;
+    	font-size: 18px;
+    	color: #ededff;
+    	background: #30A9BE;
+    	border-radius: 25px;
+    	margin: 0 10px;
+    	box-shadow: 4px 4px rgba(0,0,0,0.1);
+
+
+    	transition: background .3s, color .3s, border .3s;
+    	-moz-transition: background .3s, color .3s, border .3s; /* Firefox 4 */
+    	-webkit-transition: background .3s, color .3s, border .3s; /* Safari 和 Chrome */
+    	-o-transition: background .3s, color .3s, border .3s; /* Opera */
+    }
+
+    a span{
+    	font-family: arial;
+    	font-size: 14px;
+    	letter-spacing: 10px;
+    }
+
+    a:hover{
+    	background: rgb(53, 197, 212);
+    	color: #ededff;
+    }
   }
 }
 
