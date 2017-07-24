@@ -56,7 +56,6 @@
         <div class="clear"></div>
         <div >2</div>
       </div>
-
     	<div class="css-intro">
     		<div class="css-intro-title">
             <img class="css-intro-title-img" src="./assets/img/icon_Ask.png" />
@@ -102,8 +101,6 @@
     		</div>
         <div class="clear"></div>
     	</div>
-
-
     	<div class="css-intro">
     		<div class="css-intro-title">
             <img class="css-intro-title-img" src="./assets/img/icon_DA.png" />
@@ -154,6 +151,28 @@
       					<div class="clear"></div>
       		</div>
     	</div>
+
+
+    	<div class="css-shower">
+    		<div class="css-shower-title">
+    			<div>为什么选择搭搭家？</div>
+    		</div>
+    	</div>
+    	<div class="css-intro2">
+    		<div class="css-intro2-content" style="width:960px;">
+    			<div class="css-intro2-content-title">
+              <img class="css-intro2-content-title-icon" src="./assets/img/why_VS.png" />
+    					<div class="clear"></div>
+              <div class="css-intro2-content-title-name" style="text-align:right;padding-right:20px">搭搭家APP</div>
+              <div class="css-intro2-content-title-name"style="padding-left:25px;width:50%;float:left;text-align:left">一般图册</div>
+    			</div>
+    			<div class="css-intro2-content-analysis">
+              <img class="css-intro2-content-analysis-img" src="./assets/img/why_analysis.png" />
+    			</div>
+    		</div>
+    	</div>
+
+  		<div class="clear"></div>
   </div>
 </template>
 
@@ -417,5 +436,67 @@ export default {
 	.css-intro{
 		width: 1260px;
 	}
+}
+
+/*介绍栏2*/
+.css-shower{
+	width: 100%;
+	background: #4FB4D2;
+	margin-top: 40px;
+	height:60px;
+  position:relative;
+  float:left;
+  text-align: center;
+  padding: 15px 0px;
+
+  .css-shower-title {
+  	letter-spacing: 2px;
+  	font-family: '微软雅黑';
+  	color: #fff;
+  	font-size: 22px;
+  	letter-spacing: 2px;
+      font-weight: normal;
+  }
+
+}
+
+@media screen and (max-width: 1260px) {
+	.css-shower{
+		width: 1260px;
+	}
+}
+
+.css-intro2 {
+  float:left;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color:#F4F4F4;
+  .css-intro2-content {
+      width: 1200px;
+      margin: 0 auto;
+      font-size: 12px;
+      margin-top: 10px;
+      color: #606B70;
+      .css-intro2-content-title {
+        width:100%;
+        height:100px;
+        .css-intro2-content-title-icon {
+            padding: 5px;
+            height: 60%;
+        }
+        .css-intro2-content-title-name {
+            width:50%;
+            float:left;
+        }
+      }
+      .css-intro2-content-analysis {
+            float:left;
+            height:615px;
+            .css-intro2-content-analysis-img{
+              height:100%;
+            }
+      }
+  }
 }
 </style>
