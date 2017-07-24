@@ -28,7 +28,7 @@
     						<a href="##"> 搭搭家APP</a>
     					</li>
     					<li>
-    						<a href="##"> 3D效果设计</a>
+    						<a @click="scroll('3D');" target="_self"> 3D效果设计</a>
     					</li>
     					<li>
     						<a href="##"> 客户案例</a>
@@ -172,7 +172,7 @@
     			</div>
     		</div>
     	</div>
-      <div class="css-shower2">
+      <div class="css-shower2"  id="3D">
         <div class="css-shower2-title">
           <div>什么是家具产品3D效果设计</div>
           <div class="css-shower2-title-smalltitle">
@@ -286,7 +286,20 @@
 </template>
 
 <script>
+import jQuery from './assets/js/jquery-3.1.1.min.js'
+import scroll from './assets/js/hovertreescroll.js'
 export default {
+  data(){
+    return{
+    }
+  },
+  methods:{
+  	scroll(id) {
+      // alert(1)
+  		$("#" + id).HoverTreeScroll(800);
+  	}
+  }
+
 }
 </script>
 
@@ -382,7 +395,6 @@ export default {
     position:absolute;
     top:280px;
     left:28%;
-    z-index:"1";
     .css-body-ad-title {
       font-size: 36px;
     }
@@ -397,8 +409,10 @@ export default {
 
   .css-body-btn{
   	text-align: left;
-  	margin-top: 10px;
-  	margin-left: 375px;
+      color: white;
+      position:absolute;
+      top:420px;
+      left:27%;
     .css-body-btn-img {
         float:left;
     		width: 20px;
