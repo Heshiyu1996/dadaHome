@@ -62,7 +62,7 @@
       			<div class="css-intro-title-ask">什么是搭搭家？</div>
     		</div>
     		<div class="css-intro-content">
-    			<div class="css-intro-title-ans" >搭搭家是一款SaaS模式的企业移动销售云服务展示软件系统，专门为企业提供更高效更优质的品牌营销，产品展示，网络传播，以及强大的产品即时搭配功能等服务。</div>
+    			搭搭家是一款SaaS模式的企业移动销售云服务展示软件系统，专门为企业提供更高效更优质的品牌营销，产品展示，网络传播，以及强大的产品即时搭配功能等服务。
     		</div>
     	</div>
     	<div class="css-intro">
@@ -151,8 +151,6 @@
       					<div class="clear"></div>
       		</div>
     	</div>
-
-
     	<div class="css-shower">
     		<div class="css-shower-title">
     			<div>为什么选择搭搭家？</div>
@@ -172,6 +170,59 @@
     		</div>
     	</div>
 
+      <div class="css-shower2">
+        <div class="css-shower2-title">
+          <div>什么是家具产品3D效果设计</div>
+          <div class="css-shower2-title-smalltitle">
+              <div style=" flex: 1"></div>
+              <div style="width:750px;font-size:14px;font-family:'宋体';text-align:left">大部分厂家,对于产品打样,产品拍摄都非常头疼,而通过3Dmax快速建立产品模型,快速决定产品打样效果;搭配合适的效果场景,搭配不同的产品颜色和组合,渲染出比一般摄影棚都要好的产品效果图,正是家具产品3D效果设计的核心功能。</div>
+              <div style=" flex: 1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="css-intro">
+    		<div class="css-intro-title">
+            <img class="css-intro-title-img" width="41px" height="41px" src="./assets/img/icon_Fire.png" />
+      			<div class="css-intro-title-ask">火炬3D设计团队</div>
+    		</div>
+    		<div class="css-intro-content"  style="width:600px">
+    			我司旗下的火炬3D设计团队,拥有多位资深3D设计师,专门为家具厂家客户,家具电商客户提供专业的3D效果设计服务,也为搭搭家APP用户提供重要的效果设计支持!我们团队提供完整优质的3D服务,包括产品建模,场景设计,效果渲染,3D动画视频制作等
+    		</div>
+
+				<div class="css-intro-content3" style="width:900px;">
+					<div class="css-intro-content3-3D">
+						<div class="css-intro-content3-3D-item">
+              <div style="height:120px;">
+                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Quick.png" />
+              </div>
+              <div class="css-intro-content3-3D-item-title">快速高效</div>
+              <div class="css-intro-content3-3D-item-desc">家具产品高效打样!产品模型随意更改,能够快速确定好新产品的设计. </div>
+            </div>
+						<div class="css-intro-content3-3D-item">
+              <div style="height:120px;">
+                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Save.png" />
+              </div>
+              <div class="css-intro-content3-3D-item-title">省力省钱</div>
+              <div class="css-intro-content3-3D-item-desc">出图高效,成本低廉!不用实物打样,不用影棚拍摄,省时省力省钱,直接渲染出图. </div>
+            </div>
+						<div class="css-intro-content3-3D-item">
+              <div style="height:120px;">
+                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_DIY.png" />
+              </div>
+              <div class="css-intro-content3-3D-item-title">随心所欲</div>
+              <div class="css-intro-content3-3D-item-desc">颜色和组合任意变化!实物拍摄必须所有产品生产出来,而3D效果在软件里能任意变化颜色和组合. </div>
+            </div>
+						<div class="css-intro-content3-3D-item">
+              <div style="height:120px;">
+                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Real.png" />
+              </div>
+              <div class="css-intro-content3-3D-item-title">真实体验</div>
+              <div class="css-intro-content3-3D-item-desc">AR/VR虚拟现实时代来临!VR时代的来临,产品3D模型化正是这一切的基础. </div>
+            </div>
+					</div>
+				</div>
+
+    	</div>
   		<div class="clear"></div>
   </div>
 </template>
@@ -394,6 +445,29 @@ export default {
           height: 97%;
         }
       }
+      .css-intro-content3-3D {
+        height:240px;
+        .css-intro-content3-3D-item {
+          float:left;
+          width:22%;
+          height:100%;
+          margin:0px 13px;
+          .css-intro-content3-3D-item-pic {
+            width:185px;
+            border-radius:5px;
+          }
+          .css-intro-content3-3D-item-title {
+            height:60px;
+            padding:25px 0px;
+            font-size:16px;
+            font-weight:500
+          }
+          .css-intro-content3-3D-item-desc {
+            text-align:left;
+            padding-left:10px;
+          }
+        }
+      }
   }
   .css-intro-content2 {
     width: 1200px;
@@ -429,6 +503,7 @@ export default {
   	margin: 0 auto;
   	font-size: 14px;
   	color: #676767;
+    text-align: left;
   }
 }
 
@@ -457,7 +532,6 @@ export default {
   	letter-spacing: 2px;
       font-weight: normal;
   }
-
 }
 
 @media screen and (max-width: 1260px) {
@@ -498,5 +572,40 @@ export default {
             }
       }
   }
+}
+
+
+/*介绍栏2*/
+.css-shower2{
+	width: 100%;
+	background: #4FB4D2;
+	margin-top: 40px;
+	height:200px;
+  position:relative;
+  float:left;
+  text-align: center;
+  padding: 15px 0px;
+
+  .css-shower2-title {
+  	letter-spacing: 2px;
+  	font-family: '微软雅黑';
+  	color: #fff;
+  	font-size: 26px;
+  	letter-spacing: 2px;
+    font-weight: normal;
+    padding: 45px 0px;
+    // margin: 0 auto;
+      .css-shower2-title-smalltitle {
+        font-size:14px;
+        margin-top:10px;
+        display:flex
+      }
+  }
+}
+
+@media screen and (max-width: 1260px) {
+	.css-shower2{
+		width: 1260px;
+	}
 }
 </style>
