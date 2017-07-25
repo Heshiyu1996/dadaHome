@@ -225,7 +225,6 @@
 				</div>
 
     	</div>
-
       <div class="css-intro">
     		<div class="css-intro-title">
       			<div class="css-intro-title-ask" style="border-bottom:0px solid white">客户案例</div>
@@ -280,6 +279,18 @@
           </a>
         </div>
       </div>
+
+      <div class="css-team">
+			  <div>公司简介</div>
+				<div class="css-team-title">
+              <div style="flex: 1"></div>
+              <div style="width:770px;font-size:14px;font-family:'宋体';text-align:center">
+                   佛山市楚翘科技有限公司是一家年轻活力，创意无限，追逐梦想的高新技术型公司，经过多年的发展，旗下拥有搭搭家APP团队，火炬3D设计团队，德宝电商团队，致力于为所有家具厂家和电商客户提供最优质的品牌营销，产品展示与运营咨询等综合型服务。我司旗下每个团队虽然都有不同的功能和目标，但其终极使命都是为了让家具行业得到更好的发展，竭尽全力帮助每一个家具人实现自己心目中的理想！</div>
+              <div style=" flex: 1"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
       <div class="clear"></div>
   		<div class="clear"></div>
   </div>
@@ -746,4 +757,43 @@ export default {
 		width: 1260px;
 	}
 }
+
+
+/*中间大横幅*/
+.css-team{
+  float: left;
+	width: 100%;
+	height: 350px;
+	background: url(./assets/img/team_title.png) no-repeat center center;
+	background-size: cover;
+  letter-spacing: 2px;
+  font-family: '微软雅黑';
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  padding: 80px 0px;
+  text-align:center;
+
+  .css-team-title {
+    display:flex;
+    letter-spacing: 2px;
+    font-family: '微软雅黑';
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-top: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+	.css-team{
+		width: 1260px;
+	}
+}
+
+
+
 </style>
