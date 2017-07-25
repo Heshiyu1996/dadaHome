@@ -232,15 +232,15 @@
         <div class="css-intro-content3" style="width:845px;">
           <div class="css-intro-content3-example">
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P1.jpg" />
+              <img src="./assets/img/cus_P1.jpg"/>
               <div style="">舒适健康床垫</div>
     				</div>
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P1.jpg" />
+              <img src="./assets/img/cus_P2.jpg" />
               <div style="">高级牛皮地毯</div>
     				</div>
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P1.jpg" />
+              <img src="./assets/img/cus_P3.jpg" />
               <div style="">现代茶几电视柜组合</div>
     				</div>
           </div>
@@ -289,6 +289,102 @@
               <div style=" flex: 1"></div>
 				</div>
 				<div class="clear"></div>
+			</div>
+      <div class="css-intro">
+				<div class="css-intro-team">
+					搭搭家APP团队
+				</div>
+				<div class="css-intro-content3">
+					搭搭家APP团队，位于广州大学城，由多家资深软件工程师组成，专门负责设计企业移动销售云服务展示软件系统--搭搭家。
+				</div>
+				<div class="css-intro-content3" style="width:700px;">
+					<div style="" class="css-intro-content3-example IAmTeam">
+						<div class="css-intro-content3-example-item">
+              <img src="./assets/img/team_Building.jpg" />
+              <div style="">舒适健康床垫</div>
+            </div>
+						<div class="css-intro-content3-example-item">
+              <img src="./assets/img/team_Office.jpg" />
+              <div style="">搭搭家办公环境</div>
+            </div>
+						<div class="css-intro-content3-example-item">
+              <img src="./assets/img/team_Members.jpg" />
+              <div style="">搭搭家开发团队</div>
+            </div>
+					</div>
+				</div>
+			</div>
+      <div class="css-intro" style="margin-top:60px">
+				<div class="css-intro-team">
+					火炬3D设计团队
+				</div>
+				<div class="css-intro-content3">
+					火炬3D设计团队,位于顺德龙江镇,团队拥有多年3D效果设计经验,一直为本地家具厂家和电商客户提供优质的3D设计服务
+				</div>
+				<div class="css-intro-content3" style="width:700px;">
+					<div style="" class="css-intro-content3-example IAmTeam">
+						<div class="css-intro-content3-example-item">
+              <img src="./assets/img/team_3DBuilding.jpg" />
+              <div style="">火炬3D办公大楼</div>
+            </div>
+						<div class="css-intro-content3-example-item">
+              <img src="./assets/img/team_3DOffice.jpg" />
+              <div style="">火炬3D办公环境</div>
+            </div>
+						<div class="css-intro-content3-example-item">
+              <img src="./assets/img/team_3DMembers.jpg" />
+              <div style="">火炬3D设计团队</div>
+            </div>
+					</div>
+				</div>
+			</div>
+      <div class="css-intro" style="margin-top:60px">
+  			<div class="css-intro-team">
+  				德宝电商团队
+  			</div>
+  			<div class="css-intro-content3">
+  				德宝电商团队,位于顺德龙江镇,专门为电商客户提供品牌设计,网店装修,店铺运营咨询等服务.
+  			</div>
+  			<div class="css-intro-content3" style="width:700px;">
+  				<div style="" class="css-intro-content3-example IAmTeam">
+  					<div class="css-intro-content3-example-item">
+              <img src="./assets/img/team_DBBuilding.jpg" />
+              <div style="">德宝电商办公大楼</div>
+            </div>
+  					<div class="css-intro-content3-example-item">
+              <img src="./assets/img/team_DBOffice.jpg" />
+              <div style="">德宝电商办公环境</div>
+            </div>
+  					<div class="css-intro-content3-example-item">
+              <img src="./assets/img/team_DBMembers.jpg" />
+              <div style="">德宝电商运营团队</div>
+            </div>
+  				</div>
+  			</div>
+  		</div>
+			<div class="clear"></div>
+
+      <div class="css-shower2" style="height:120px;">
+				<div class="css-shower2-title IAmContact">
+	        <div class="css-contact-both"></div>
+        	<div class="css-contact-center" style="padding-left:40px">
+            <img src="./assets/img/contact_Call.png" />
+            <div >电话：0757-2338 6213</div>
+          </div>
+        	<div class="css-contact-center">
+            <img src="./assets/img/contact_QQ.png" />
+            <div>QQ：121439330/576006494</div>
+          </div>
+	        <div class="css-contact-both"></div>
+				</div>
+				<div class="css-shower2-title IAmContact">
+  	        <div class="css-contact-both"></div>
+            <div class="css-contact-center" style="width:640px;padding-left:10px">
+              <img src="./assets/img/contact_Addr.png" />
+              <div>地址 : 佛山市顺德区龙江镇涌口乐龙国际创意城E座303 </div>
+            </div>
+  	        <div class="css-contact-both"></div>
+				</div>
 			</div>
 
       <div class="clear"></div>
@@ -565,6 +661,7 @@ export default {
           width:260px;
           height:200px;
         }
+
         .css-intro-content3-example-item {
           float:left;
           border:1px solid #D2D2D2;
@@ -578,7 +675,42 @@ export default {
             font-size:15px;
             margin:2px 0px;
             padding:4px 0px;
+          }
+        }
 
+        &.IAmTeam {
+          width:100%;
+          height:155px;
+          display:flex;
+          div {
+            width:220px;
+            float:left;
+            font-size:15px;
+            margin:2px 0px;
+          }
+          img{
+            float:left;
+            width:220px;
+            height:130px;
+          }
+          .css-intro-content3-example-item {
+            width:222px;
+            float:left;
+            border:0px solid #D2D2D2;
+            height:100%;
+            margin:0px 9px;
+            div {
+              height:25px;
+              width:100%;
+              float:left;
+              font-size:13px;
+              background-color: #30A9BE;
+              color: #FFFFFF;
+              font-family: '宋体';
+              text-align: left;
+              padding-left: 10px;
+              margin-top: -1px;
+            }
           }
         }
       }
@@ -619,6 +751,16 @@ export default {
   	color: #676767;
     text-align: left;
   }
+
+  .css-intro-content4 {
+  	margin: 0 auto;
+  	color: #676767;
+    width:800px;
+    font-size:12px;
+    font-family:'宋体';
+    text-align:center;
+    margin: 5px auto 25px;
+  }
   /*查看更多*/
   .css-intro-btnmore {
     	text-align: center;
@@ -633,7 +775,7 @@ export default {
     	color: #ededff;
     	background: #30A9BE;
     	border-radius: 25px;
-    	margin: 0 10px;
+    	margin: 0px 10px 40px;
     	box-shadow: 4px 4px rgba(0,0,0,0.1);
 
 
@@ -653,6 +795,13 @@ export default {
     	background: rgb(53, 197, 212);
     	color: #ededff;
     }
+  }
+
+  .css-intro-team {
+  	width: 1200px;
+  	margin: 0 auto;
+  	font-size: 26px;
+  	color: rgb(64,160,208);
   }
 }
 
@@ -743,7 +892,29 @@ export default {
   	letter-spacing: 2px;
     font-weight: normal;
     padding: 45px 0px;
-    // margin: 0 auto;
+    &.IAmContact {
+      width:100%;
+      height:30px;
+      padding: 0px;
+      font-size:20px;
+      display:flex;
+      margin-top: 10px;
+      .css-contact-both {
+        flex: 1;
+      }
+      .css-contact-center {
+        width: 350px;
+        img {
+          float:left;
+          width:25px;
+          height:25px
+        }
+        div {
+          float:left;
+          margin-left:5px;
+        }
+      }
+    }
       .css-shower2-title-smalltitle {
         font-size:14px;
         margin-top:10px;
