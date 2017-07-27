@@ -25,26 +25,26 @@
     						<a href="catalog.html"> 首页</a>
     					</li>
     					<li>
-    						<a href="##"> 搭搭家APP</a>
+    						<a @click="scroll('APP');"> 搭搭家APP</a>
     					</li>
     					<li>
     						<a @click="scroll('3D');" target="_self"> 3D效果设计</a>
     					</li>
     					<li>
-    						<a href="##"> 客户案例</a>
+    						<a @click="scroll('Custom');"> 客户案例</a>
     					</li>
     					<li>
-    						<a href="##"> 公司简介</a>
+    						<a @click="scroll('Company');"> 公司简介</a>
     					</li>
     					<li>
-    						<a href="##"> 联系我们</a>
+    						<a @click="scroll('Contact');"> 联系我们</a>
     					</li>
     				</ul>
     			</div>
     		</div>
     	</div>
 
-      <div class="css-body">
+      <div class="css-body" id="APP">
          <img class="css-body-bg" width="450px" height="350px"  src="./assets/img/ad_ipad.png" />
          <div class="css-body-ad">
             <div class="css-body-ad-title">搭搭家</div>
@@ -61,17 +61,25 @@
       </div>
     	<div class="css-intro">
     		<div class="css-intro-title">
+          <div style="flex:1"></div>
+          <div>
             <img class="css-intro-title-img" src="./assets/img/icon_Ask.png" />
       			<div class="css-intro-title-ask">什么是搭搭家？</div>
+          </div>
+          <div style="flex:1"></div>
     		</div>
     		<div class="css-intro-content">
     			搭搭家是一款SaaS模式的企业移动销售云服务展示软件系统，专门为企业提供更高效更优质的品牌营销，产品展示，网络传播，以及强大的产品即时搭配功能等服务。
     		</div>
     	</div>
     	<div class="css-intro">
-    		<div class="css-intro-title" style="padding:0px 0% 0px 40%;">
+    		<div class="css-intro-title">
+          <div style="flex:1"></div>
+          <div style="width:295px">
             <img class="css-intro-title-img" src="./assets/img/icon_Ask.png" />
       			<div class="css-intro-title-ask">搭搭家解决什么问题？</div>
+          </div>
+          <div style="flex:1"></div>
     		</div>
         <div class="css-intro-content2" style="width:790px;">
         			<div class="css-intro-content2-card">
@@ -106,8 +114,12 @@
     	</div>
     	<div class="css-intro">
     		<div class="css-intro-title">
-            <img class="css-intro-title-img" src="./assets/img/icon_DA.png" />
-      			<div class="css-intro-title-ask">搭搭家功能介绍</div>
+            <div style="flex:1"></div>
+            <div>
+              <img class="css-intro-title-img" src="./assets/img/icon_DA.png" />
+        			<div class="css-intro-title-ask">搭搭家功能介绍</div>
+            </div>
+            <div style="flex:1"></div>
     		</div>
     		<div class="css-intro-content3" style="width:845px;">
       			<div class="css-intro-content3-card">
@@ -184,8 +196,12 @@
       </div>
       <div class="css-intro" style="margin-top:25px">
     		<div class="css-intro-title">
-            <img class="css-intro-title-img" width="41px" height="41px" src="./assets/img/icon_Fire.png" />
-      			<div class="css-intro-title-ask">火炬3D设计团队</div>
+          <div style="flex:1"></div>
+            <div>
+              <img class="css-intro-title-img" width="41px" height="41px" src="./assets/img/icon_Fire.png" />
+        			<div class="css-intro-title-ask">火炬3D设计团队</div>
+            </div>
+          <div style="flex:1"></div>
     		</div>
     		<div class="css-intro-content"  style="width:600px;height:150px;padding:40px 0px;">
     			我司旗下的火炬3D设计团队,拥有多位资深3D设计师,专门为家具厂家客户,家具电商客户提供专业的3D效果设计服务,也为搭搭家APP用户提供重要的效果设计支持!我们团队提供完整优质的3D服务,包括产品建模,场景设计,效果渲染,3D动画视频制作等
@@ -225,50 +241,52 @@
 				</div>
 
     	</div>
-      <div class="css-intro">
+      <div class="css-intro" id="Custom">
     		<div class="css-intro-title">
+          <div style="flex:1"></div>
       			<div class="css-intro-title-ask" style="border-bottom:0px solid white">客户案例</div>
-    		</div>
+          <div style="flex:1"></div>
+        	</div>
         <div class="css-intro-content3" style="width:845px;">
           <div class="css-intro-content3-example">
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P1.jpg"/>
+              <img src="./assets/img/cus_P1.png"/>
               <div style="">舒适健康床垫</div>
     				</div>
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P2.jpg" />
+              <img src="./assets/img/cus_P2.png" />
               <div style="">高级牛皮地毯</div>
     				</div>
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P3.jpg" />
+              <img src="./assets/img/cus_P3.png" />
               <div style="">现代茶几电视柜组合</div>
     				</div>
           </div>
           <div class="css-intro-content3-example">
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P4.jpg" />
+              <img src="./assets/img/cus_P4.png" />
               <div style="">高档美式沙发</div>
     				</div>
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P5.jpg" />
+              <img src="./assets/img/cus_P5.png" />
               <div style="">快乐儿童木床</div>
     				</div>
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P6.jpg" />
+              <img src="./assets/img/cus_P6.png" />
               <div style="">北欧简约皮床</div>
     				</div>
           </div>
           <div class="css-intro-content3-example">
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P7.jpg" />
+              <img src="./assets/img/cus_P7.png" />
               <div style="">高档办公沙发</div>
     				</div>
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P8.jpg" />
+              <img src="./assets/img/cus_P8.png" />
               <div style="">高档美式实木床</div>
     				</div>
             <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P9.jpg" />
+              <img src="./assets/img/cus_P9.png" />
               <div style="">板式高低儿童床</div>
     				</div>
           </div>
@@ -280,7 +298,7 @@
         </div>
       </div>
 
-      <div class="css-team">
+      <div class="css-team" id="Company">
 			  <div>公司简介</div>
 				<div class="css-team-title">
               <div style="flex: 1"></div>
@@ -304,7 +322,7 @@
               <div style="">舒适健康床垫</div>
             </div>
 						<div class="css-intro-content3-example-item">
-              <img src="./assets/img/team_Office.jpg" />
+              <img src="./assets/img/team_Office.png" />
               <div style="">搭搭家办公环境</div>
             </div>
 						<div class="css-intro-content3-example-item">
@@ -328,7 +346,7 @@
               <div style="">火炬3D办公大楼</div>
             </div>
 						<div class="css-intro-content3-example-item">
-              <img src="./assets/img/team_3DOffice.jpg" />
+              <img src="./assets/img/team_3DOffice.png" />
               <div style="">火炬3D办公环境</div>
             </div>
 						<div class="css-intro-content3-example-item">
@@ -352,7 +370,7 @@
               <div style="">德宝电商办公大楼</div>
             </div>
   					<div class="css-intro-content3-example-item">
-              <img src="./assets/img/team_DBOffice.jpg" />
+              <img src="./assets/img/team_DBOffice.png" />
               <div style="">德宝电商办公环境</div>
             </div>
   					<div class="css-intro-content3-example-item">
@@ -364,7 +382,7 @@
   		</div>
 			<div class="clear"></div>
 
-      <div class="css-shower2" style="height:120px;">
+      <div class="css-shower2" style="height:120px;" id="Contact">
 				<div class="css-shower2-title IAmContact">
 	        <div class="css-contact-both"></div>
         	<div class="css-contact-center" style="padding-left:40px">
@@ -388,6 +406,30 @@
 			</div>
 
       <div class="clear"></div>
+
+       <div class="css-footer">
+      		<div class="css-footer-box">
+      			<div style="flex:1"></div>
+            <div style="width:600px;">
+              <div class="css-footer-box-link">搭搭家APP</div>
+        			<div class="css-footer-box-link">火炬3D</div>
+        			<div class="css-footer-box-link">客户案例</div>
+        			<div class="css-footer-box-link">公司简介</div>
+        			<div class="css-footer-box-link" style="border-right:0px solid #62656A">联系我们</div>
+            </div>
+            <div style="flex:1"></div>
+          </div>
+         		<div class="css-footer-box" style=";">
+         			<div style="flex:1"></div>
+               <div>
+                 <img src="./assets/img/logoOnFoot.png" />
+         			 </div>
+               <div style="flex:1"></div>
+             </div>
+
+      		<div class="clear"></div>
+      	</div>
+
   		<div class="clear"></div>
   </div>
 </template>
@@ -487,7 +529,7 @@ export default {
 	padding-top: 34px;
 	width: 100%;
 	height: 580px;
-	background: url(./assets/img/bg.png) no-repeat center center;
+	background: url(./assets/img/bg1.png) no-repeat center center;
 	background-size: cover;
 
   border-bottom:40px solid #4FB4D2;
@@ -578,7 +620,8 @@ export default {
   	font-size: 18px;
   	color: #606B70;
     width:100%;
-    padding:0px 0% 0px 44%;
+    display: flex;
+    // padding:0px 0% 0px 44%;
     height:50px;
     .css-intro-title-img {
       float:left;
@@ -935,7 +978,7 @@ export default {
   float: left;
 	width: 100%;
 	height: 350px;
-	background: url(./assets/img/team_title.png) no-repeat center center;
+	background: url(./assets/img/team_title0.png) no-repeat center center;
 	background-size: cover;
   letter-spacing: 2px;
   font-family: '微软雅黑';
@@ -965,6 +1008,36 @@ export default {
 	}
 }
 
+/*底部版权*/
+.css-footer{
+  float: left;
+	width: 100%;
+	height:400px;
+	background: rgb(54,58,67);
+  .css-footer-box {
+  	// width: 1140px;
+  	text-align: center;
+  	padding-top: 50px;
+    display:flex;
+    div {
+    	color: rgb(175,175,175);
+    	font-size: 16px;
+    	font-weight: normal;
+    }
+    .css-footer-box-link {
+      float:left;
+      width:120px;
+      height:30px;
+      line-height:30px;
+      border-right:1px solid #62656A
+    }
+  }
+}
 
+@media screen and (max-width: 1260px) {
+	.css-footer{
+		width: 1260px;
+	}
+}
 
 </style>
