@@ -127,49 +127,47 @@
             </div>
             <div style="flex:1"></div>
     		</div>
-    		<div class="css-intro-content3" style="width:845px;">
-      			<div class="css-intro-content3-card">
-      					<div style="height:70%">
+    		<div class="css-intro-content3" style="width:1260px;">
+      		<div style="margin:0 auto;width:1035px;">
+            <div class="css-intro-content3-card">
+                <div style="height:169px">
                     <img class="css-intro-content3-card-icon" src="./assets/img/func_Build.png" />
                     <div class="css-intro-content3-card-name" >快速搭配</div>
-            				<div class="css-intro-content3-card-desc">
+                    <div class="css-intro-content3-card-desc">
                       强大的智能搭配功能，销售人员能帮客户3秒内完成产品搭配方案展示
                     </div>
                 </div>
+                <div style="height:70%;margin-top:75px">
+                    <img class="css-intro-content3-card-icon" src="./assets/img/func_3D.png" />
+                    <div class="css-intro-content3-card-name">3D展现</div>
+                    <div class="css-intro-content3-card-desc">
+                      3D虚拟现实效果,720全景展示,让客户马上看出一整个系列搭配下来的空间效果，如同身临其境
+                    </div>
+                </div>
+            </div>
 
-                  <div style="height:50%">
-                      <img class="css-intro-content3-card-icon" src="./assets/img/func_3D.png" />
-                      <div class="css-intro-content3-card-name">3D展现</div>
-                      <div class="css-intro-content3-card-desc">
-                        3D虚拟现实效果,720全景展示,让客户马上看出一整个系列搭配下来的空间效果，如同身临其境
-                      </div>
-                  </div>
-      			</div>
-
-      			<div class="css-intro-content3-card2">
+            <div class="css-intro-content3-card2" style="width:auto">
                 <img class="css-intro-content3-card2-img" src="./assets/img/img_funcIntro.png" />
             </div>
 
-              <div class="css-intro-content3-card" style="margin-left:30px;">
-
-                <div style="height:50%">
+            <div class="css-intro-content3-card" style="margin-left:30px;">
+                <div style="height:70%">
                     <img class="css-intro-content3-card-icon" src="./assets/img/func_Spread.png" />
                     <div class="css-intro-content3-card-name">高速传播</div>
                     <div class="css-intro-content3-card-desc">
                       高速传播,微信,朋友圈,QQ,微博,随时随地传播品牌信息,大大提高了线下业务人员的营销效率
                     </div>
                 </div>
-
-                  <div style="height:50%">
-                      <img class="css-intro-content3-card-icon" src="./assets/img/func_Storage.png" />
-                      <div class="css-intro-content3-card-name">可视化数据</div>
-                      <div class="css-intro-content3-card-desc">
-                        数据化运营,将一切可记录的数据可视化，综合情况，让厂家在产品设计，地区性销售策略有了可靠的数据支持
-                      </div>
-                  </div>
-      			</div>
-      			<!-- clear用作撑开浮动元素div -->
-      					<div class="clearfix"></div>
+                <div style="height:70%;margin-top:75px">
+                    <img class="css-intro-content3-card-icon" src="./assets/img/func_Storage.png" />
+                    <div class="css-intro-content3-card-name">可视化数据</div>
+                    <div class="css-intro-content3-card-desc">
+                      数据化运营,将一切可记录的数据可视化，综合情况，让厂家在产品设计，地区性销售策略有了可靠的数据支持
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
       		</div>
     	</div>
     	<div class="css-shower">
@@ -182,8 +180,8 @@
     			<div class="css-intro2-content-title">
               <img class="css-intro2-content-title-icon" src="./assets/img/why_VS.png" />
     					<div class="clearfix"></div>
-              <div class="css-intro2-content-title-name" style="text-align:right;padding-right:20px">搭搭家APP</div>
-              <div class="css-intro2-content-title-name"style="padding-left:25px;width:50%;float:left;text-align:left">一般图册</div>
+              <div class="css-intro2-content-title-name" style="text-align:right;padding-right:45px">搭搭家APP</div>
+              <div class="css-intro2-content-title-name"style="padding-left:55px;width:50%;float:left;text-align:left">一般图册</div>
     			</div>
     			<div class="css-intro2-content-analysis">
               <img class="css-intro2-content-analysis-img" src="./assets/img/why_analysis.png" />
@@ -673,7 +671,6 @@ export default {
       .css-intro-content3-card {
         float:left;
         width:26%;
-        height:300px;
         .css-intro-content3-card-icon {
           padding: 5px;
           width: 25%;
@@ -701,7 +698,7 @@ export default {
         padding: 15px 0px;
 
         .css-intro-content3-card2-img {
-          height: 370px
+          height: 330px
         }
       }
       .css-intro-content3-3D {
@@ -900,19 +897,22 @@ export default {
 	width: 100%;
 	background: #4FB4D2;
 	margin-top: 40px;
-	height:60px;
   position:relative;
   float:left;
+  height:150px;
   text-align: center;
-  padding: 15px 0px;
 
   .css-shower-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
   	letter-spacing: 2px;
   	font-family: '微软雅黑';
   	color: #fff;
-  	font-size: 22px;
+  	font-size: 48px;
   	letter-spacing: 2px;
-      font-weight: normal;
+    font-weight: normal;
   }
 }
 
@@ -939,16 +939,21 @@ export default {
         height:100px;
         .css-intro2-content-title-icon {
             padding: 5px;
-            height: 60%;
+            height: 100%;
         }
         .css-intro2-content-title-name {
             width:50%;
+            margin: 15px 0px 20px 0px;
             float:left;
+            font-size: 18px;
+            font-weight: lighter;
+
         }
       }
       .css-intro2-content-analysis {
             float:left;
-            height:615px;
+            height:815px;
+            margin-left: -155px;
             .css-intro2-content-analysis-img{
               height:100%;
             }
