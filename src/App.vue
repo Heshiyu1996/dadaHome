@@ -22,29 +22,29 @@
     			<div class="css-header-center">
     				<ul>
     					<li>
-    						<a href="catalog.html"> 首页</a>
+    						<a href="#" @click="scroll('Index');"> 首页</a>
     					</li>
     					<li>
-    						<a @click="scroll('APP');"> 搭搭家APP</a>
+    						<a href="#" @click="scroll('APP');"> 搭搭家APP</a>
     					</li>
     					<li>
-    						<a @click="scroll('3D');" target="_self"> 3D效果设计</a>
+    						<a href="#" @click="scroll('3D');"> 3D效果设计</a>
     					</li>
     					<li>
-    						<a @click="scroll('Custom');"> 客户案例</a>
+    						<a href="#" @click="scroll('Custom');"> 客户案例</a>
     					</li>
     					<li>
-    						<a @click="scroll('Company');"> 公司简介</a>
+    						<a href="#" @click="scroll('Company');"> 公司简介</a>
     					</li>
-    					<li>
-    						<a @click="scroll('Contact');"> 联系我们</a>
+    					<li style="border-right: 1px solid #E1E1E1;">
+    						<a href="#" @click="scroll('Contact');"> 联系我们</a>
     					</li>
     				</ul>
     			</div>
     		</div>
     	</div>
 
-      <div class="css-body" id="APP">
+      <div class="css-body" id="Index">
          <img class="css-body-bg" width="450px" height="350px"  src="./assets/img/ad_ipad.png" />
          <div class="css-body-ad">
             <div class="css-body-ad-title">搭搭家</div>
@@ -59,7 +59,7 @@
         </div>
         <div class="clear"></div>
       </div>
-    	<div class="css-intro">
+    	<div class="css-intro" id="APP">
     		<div class="css-intro-title">
           <div style="flex:1"></div>
           <div>
@@ -503,24 +503,38 @@ export default {
   .css-header-center {
     float: right;
     margin-right: 20px;
+    height: 65px;
     ul li{
     	float: left;
-    	margin-left: 5px;
-    	padding: 5px 10px;
-    	margin-top: 23px;
+    	// margin-top: 23px;
       border-left: 1px solid #E1E1E1;
+      width: 120px;
     }
 
     ul li a{
+      display: block;
     	font-size: 16px;
-    	margin-left: 22px;
     	color: #606B70;
-    	display: inline-block;
+      text-align: center;
+      border-radius: 2px;
+    	padding: 19px 10px;
+      margin-top:1px;
+      margin-left:2px;
+      margin-right: 2px;
+      margin-bottom:  2px;
+      height:66px;
+
+      transition: background .3s, color .3s, border .3s;
+      -moz-transition: background .3s, color .3s, border .3s; /* Firefox 4 */
+      -webkit-transition: background .3s, color .3s, border .3s; /* Safari 和 Chrome */
+      -o-transition: background .3s, color .3s, border .3s; /* Opera */
 
     }
 
     ul li a:hover{
-    	color: #377AB7 !important;
+      background: #4FB4D2;
+      color: white;
+      box-shadow: 2px 2px rgba(0,0,0,0.1);
     }
   }
 }
