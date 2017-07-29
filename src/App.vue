@@ -15,29 +15,29 @@
     		</div>
     		<div class="css-header">
     			<div class="css-header-left">
-    				<a href="#">
+    				<a href="javascript:void(0)" @click="scroll('Index');">
               <img src="./assets/img/logo.png">
             </a>
     			</div>
     			<div class="css-header-center">
     				<ul>
     					<li>
-    						<a href="#" @click="scroll('Index');"> 首页</a>
+    						<a href="javascript:void(0)" @click="scroll('Index');"> 首页</a>
     					</li>
     					<li>
-    						<a href="#" @click="scroll('APP');"> 搭搭家APP</a>
+    						<a href="javascript:void(0)" @click="scroll('APP');"> 搭搭家APP</a>
     					</li>
     					<li>
-    						<a href="#" @click="scroll('3D');"> 3D效果设计</a>
+    						<a href="javascript:void(0)" @click="scroll('3D');"> 3D效果设计</a>
     					</li>
     					<li>
-    						<a href="#" @click="scroll('Custom');"> 客户案例</a>
+    						<a href="javascript:void(0)" @click="scroll('Custom');"> 客户案例</a>
     					</li>
     					<li>
-    						<a href="#" @click="scroll('Company');"> 公司简介</a>
+    						<a href="javascript:void(0)" @click="scroll('Company');"> 公司简介</a>
     					</li>
     					<li style="border-right: 1px solid #E1E1E1;">
-    						<a href="#" @click="scroll('Contact');"> 联系我们</a>
+    						<a href="javascript:void(0)" @click="scroll('Contact');"> 联系我们</a>
     					</li>
     				</ul>
     			</div>
@@ -45,15 +45,13 @@
     	</div>
 
       <div class="css-body " id="Index">
-        <img class="css-body-bg" src="./assets/img/bg1.png" />
-
+        <img class="css-body-bg" src="/static/img/bg1.c36ac8f.png"></img>
          <div class="css-body-ad">
-
             <div class="css-body-ad-title">搭搭家</div>
             <div class="css-body-ad-engtitle">DADAHOME</div>
             <div class="css-body-ad-desc">搭搭家是一款SaaS模式的企业移动销售云服务展示软件系统，专门为企业提供更高效更优质的品牌营销，产品展示，网络传播，以及强大的产品即时搭配功能等服务。 </div>
             <div class="css-body-ad-btn">
-              <a href="#">
+              <a href="javascript:void(0)">
                 <img  class="css-body-ad-btn-img" src="./assets/img/iphone.png" />
                 <div  class="css-body-ad-btn-desc">S E E &nbsp;&nbsp;O N &nbsp;&nbsp;A P P S T O R E</div>
               </a>
@@ -62,6 +60,7 @@
         <!-- <img class="css-body-bg" src="./assets/img/ad_ipad.png" /> -->
         <div class="clearfix"></div>
       </div>
+      <div class="css-line"></div>
     	<div class="css-intro" id="APP">
     		<div class="css-intro-title">
           <div style="flex:1"></div>
@@ -417,25 +416,37 @@
     		<div class="css-footer-box">
     			<div style="flex:1"></div>
           <div style="width:600px;">
-            <div class="css-footer-box-link">搭搭家APP</div>
-      			<div class="css-footer-box-link">火炬3D</div>
-      			<div class="css-footer-box-link">客户案例</div>
-      			<div class="css-footer-box-link">公司简介</div>
-      			<div class="css-footer-box-link" style="border-right:0px solid #62656A">联系我们</div>
+            <a href="javascript:void(0)" @click="scroll('APP');">
+              <div class="css-footer-box-link">搭搭家APP</div>
+            </a>
+            <a href="javascript:void(0)" @click="scroll('3D');">
+      			     <div class="css-footer-box-link">火炬3D</div>
+            </a>
+            <a href="javascript:void(0)" @click="scroll('Custom');">
+      			     <div class="css-footer-box-link">客户案例</div>
+            </a>
+            <a href="javascript:void(0)" @click="scroll('Company');">
+      			     <div class="css-footer-box-link">公司简介</div>
+            </a>
+            <a href="javascript:void(0)" @click="scroll('Contact');">
+      			     <div class="css-footer-box-link" style="border-right:0px solid #62656A">联系我们</div>
+            </a>
           </div>
           <div style="flex:1"></div>
         </div>
      		<div class="css-footer-box">
      			<div style="flex:1"></div>
            <div>
-             <img src="./assets/img/logoOnFoot.png" />
+             <a href="javascript:void(0)" @click="scroll('Index');">
+               <img src="./assets/img/logoOnFoot.png" />
+             </a>
      			 </div>
            <div style="flex:1"></div>
          </div>
          <div class="css-footer-box" style=";">
       			<div style="flex:1"></div>
             <div>
-                版权所有 © 2017 广州汽车集团股份有限公司 粤ICP备17073358号-1
+                版权所有 © 2017 搭搭家有限公司 粤ICP备17073358号-1
       			 </div>
             <div style="flex:1"></div>
           </div>
@@ -471,6 +482,7 @@ export default {
 	height: 140px;
 	background: #fff;
   position:fixed;
+  top: 0px;
   border-bottom:1px solid #CFCFCF;
   box-shadow: 0 0 5px #888;
   z-index:999;
@@ -552,20 +564,16 @@ export default {
 }
 /*主体内容部分*/
 .css-body{
-  height: 822px;
 	// background: url(./assets/img/bg1.png)   ;
 	background-size: cover;
-  border-bottom:40px solid #4FB4D2;
-  .css-body-bg{
-    width: 100%;
-    height: 800px
-  }
+  // background: url("/static/img/bg1.c36ac8f.png") no-repeat;
+  margin-top: 140px;
   .css-body-ad{
   	text-align: left;
     color: white;
     position:absolute;
-    top:360px;
-    left:250px;
+    top:300px;
+    left:80px;
     .css-body-ad-title {
       font-size: 60px;
     }
@@ -629,10 +637,44 @@ export default {
   }
 
 }
-@media screen and (max-width: 1260px) {
-	.css-body{
-		width: 1260px;
+@media screen and (min-width:1px) and (max-width: 1260px) {
+  .css-body {
+    width: 1260px;
+  }
+	.css-body-bg{
+    width: 1260px;
+    height: 514px;
 	}
+  .css-body-ad {
+    top: 300px !important;
+    left: 80px !important;
+  }
+  .css-line {
+    width: 1260px !important;
+  }
+}
+@media screen and (min-width: 1260px) and (max-width: 1340px) {
+	.css-body-bg{
+		width: 100%;
+	}
+  .css-line {
+    width: 1260px;
+  }
+}
+@media screen and (min-width: 1340px) {
+	.css-body-bg{
+		width: 100%;
+	}
+  .css-line {
+    width: 1260px;
+  }
+}
+@media screen and (min-width: 1640px) {
+
+  .css-body-ad {
+    top: 360px !important;
+    left: 250px !important;
+  }
 }
 /*介绍栏*/
 .css-intro{
@@ -983,7 +1025,6 @@ export default {
 @media screen and (max-width: 1260px) {
 	.css-intro2{
 		width: 1260px;
-    background-color: red;
 	}
 }
 
@@ -1011,6 +1052,7 @@ export default {
       padding: 0px;
       font-size:20px;
       display:flex;
+      font-weight: lighter;
       margin-top: 0px;
       .css-contact-both {
         flex: 1;
@@ -1111,5 +1153,9 @@ export default {
 		width: 1260px;
 	}
 }
-
+.css-line {
+  width:100%;
+  border-top:40px solid #4FB4D2;
+  margin-top:-4px;
+}
 </style>

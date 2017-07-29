@@ -63,7 +63,7 @@ jQuery.fx.HoverTreeScroll = function (e, o) {
     z.o = o;
     z.e = e;
     z.p = jQuery.getPos(e);
-    z.p.y -=100;
+    z.p.y -=140;
     z.s = jQuery.getScroll();
     z.clear = function () { clearInterval(z.timer); z.timer = null };
     z.t = (new Date).getTime();
