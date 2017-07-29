@@ -84,7 +84,7 @@
           </div>
           <div style="flex:1"></div>
     		</div>
-        <div class="css-intro-content2" style="width:1260px;">
+        <div class="css-intro-content2" style="width:1240px;">
         			<div style="width:955px;margin:0 auto">
                 <div class="css-intro-content2-card">
           				<div style="height:30%">
@@ -127,7 +127,7 @@
             </div>
             <div style="flex:1"></div>
     		</div>
-    		<div class="css-intro-content3" style="width:1260px;">
+    		<div class="css-intro-content3" style="width:1240px;">
       		<div style="margin:0 auto;width:1035px;">
             <div class="css-intro-content3-card">
                 <div style="height:169px">
@@ -251,7 +251,7 @@
       			<div class="css-intro-title-ask" style="border-bottom:0px solid white;color:black">客户案例</div>
           <div style="flex:1"></div>
         	</div>
-        <div class="css-intro-content3" style="width:1260px;">
+        <div class="css-intro-content3" style="width:1240px;">
           <div style="margin: 0 auto;width:1150px;">
             <div class="css-intro-content3-example">
               <div class="css-intro-content3-example-item">
@@ -308,7 +308,7 @@
 			  <div>公司简介</div>
 				<div class="css-team-title">
               <div style="flex: 1"></div>
-              <div style="width:770px;font-size:14px;font-family:'宋体';text-align:center">
+              <div style="width:880px;font-size:16px;font-family:'宋体';text-align:center">
                    佛山市楚翘科技有限公司是一家年轻活力，创意无限，追逐梦想的高新技术型公司，经过多年的发展，旗下拥有搭搭家APP团队，火炬3D设计团队，德宝电商团队，致力于为所有家具厂家和电商客户提供最优质的品牌营销，产品展示与运营咨询等综合型服务。我司旗下每个团队虽然都有不同的功能和目标，但其终极使命都是为了让家具行业得到更好的发展，竭尽全力帮助每一个家具人实现自己心目中的理想！</div>
               <div style=" flex: 1"></div>
 				</div>
@@ -318,14 +318,14 @@
 				<div class="css-intro-team">
 					搭搭家APP团队
 				</div>
-				<div class="css-intro-content3">
+				<div class="css-intro-content3 TeamTitle">
 					搭搭家APP团队，位于广州大学城，由多家资深软件工程师组成，专门负责设计企业移动销售云服务展示软件系统--搭搭家。
 				</div>
-				<div class="css-intro-content3" style="width:700px;">
+				<div class="css-intro-content3 TeamIntro">
 					<div style="" class="css-intro-content3-example IAmTeam">
 						<div class="css-intro-content3-example-item">
               <img src="./assets/img/team_Building.jpg" />
-              <div style="">舒适健康床垫</div>
+              <div style="">搭搭家办公大楼</div>
             </div>
 						<div class="css-intro-content3-example-item">
               <img src="./assets/img/team_Office.png" />
@@ -338,14 +338,14 @@
 					</div>
 				</div>
 			</div>
-      <div class="css-intro" style="margin-top:60px">
+      <div class="css-intro" style="margin-top:120px">
 				<div class="css-intro-team">
 					火炬3D设计团队
 				</div>
-				<div class="css-intro-content3">
+				<div class="css-intro-content3 TeamTitle">
 					火炬3D设计团队,位于顺德龙江镇,团队拥有多年3D效果设计经验,一直为本地家具厂家和电商客户提供优质的3D设计服务
 				</div>
-				<div class="css-intro-content3" style="width:700px;">
+				<div class="css-intro-content3 TeamIntro">
 					<div style="" class="css-intro-content3-example IAmTeam">
 						<div class="css-intro-content3-example-item">
               <img src="./assets/img/team_3DBuilding.jpg" />
@@ -362,14 +362,14 @@
 					</div>
 				</div>
 			</div>
-      <div class="css-intro" style="margin-top:60px">
+      <div class="css-intro" style="margin-top:120px">
   			<div class="css-intro-team">
   				德宝电商团队
   			</div>
-  			<div class="css-intro-content3">
+  			<div class="css-intro-content3 TeamTitle">
   				德宝电商团队,位于顺德龙江镇,专门为电商客户提供品牌设计,网店装修,店铺运营咨询等服务.
   			</div>
-  			<div class="css-intro-content3" style="width:700px;">
+  			<div class="css-intro-content3 TeamIntro">
   				<div style="" class="css-intro-content3-example IAmTeam">
   					<div class="css-intro-content3-example-item">
               <img src="./assets/img/team_DBBuilding.jpg" />
@@ -761,7 +761,7 @@ export default {
 
         &.IAmTeam {
           width:100%;
-          height:155px;
+          height: 100%;
           display:flex;
           div {
             width:220px;
@@ -771,29 +771,40 @@ export default {
           }
           img{
             float:left;
-            width:220px;
-            height:130px;
+            width:335px;
+            height:220px;
           }
           .css-intro-content3-example-item {
-            width:222px;
+            width:100%;
             float:left;
             border:0px solid #D2D2D2;
-            height:100%;
+            height:250px;
             margin:0px 9px;
             div {
-              height:25px;
+              height:30px;
               width:100%;
               float:left;
-              font-size:13px;
+              font-size:16px;
+              font-weight: lighter;
               background-color: #30A9BE;
               color: #FFFFFF;
               font-family: '宋体';
               text-align: left;
-              padding-left: 10px;
+              padding-left: 15px;
+              padding-top: 6px;
               margin-top: -1px;
             }
           }
         }
+      }
+      &.TeamTitle {
+        margin-top: 15px;
+        letter-spacing:1px;
+        font-family:'宋体';
+      }
+      &.TeamIntro{
+        width:1050px;
+        margin-top:40px;
       }
   }
   .css-intro-content2 {
@@ -891,7 +902,7 @@ export default {
   .css-intro-team {
   	width: 1200px;
   	margin: 0 auto;
-  	font-size: 26px;
+  	font-size: 38px;
   	color: rgb(64,160,208);
   }
 }
@@ -1045,7 +1056,7 @@ export default {
   letter-spacing: 2px;
   font-family: '微软雅黑';
   color: #fff;
-  font-size: 30px;
+  font-size: 42px;
   letter-spacing: 2px;
   font-weight: normal;
   padding: 80px 0px;
