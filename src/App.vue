@@ -388,12 +388,12 @@
   		</div>
 			<div class="clearfix"></div>
 
-      <div class="css-shower2" style="height:120px;" id="Contact">
+      <div class="css-shower2" style="margin-top:180px;padding:4%" id="Contact">
 				<div class="css-shower2-title IAmContact">
 	        <div class="css-contact-both"></div>
         	<div class="css-contact-center" style="padding-left:40px">
             <img src="./assets/img/contact_Call.png" />
-            <div >电话：0757-2338 6213</div>
+            <div >电话 : 0757-2338 6213</div>
           </div>
         	<div class="css-contact-center">
             <img src="./assets/img/contact_QQ.png" />
@@ -401,7 +401,7 @@
           </div>
 	        <div class="css-contact-both"></div>
 				</div>
-				<div class="css-shower2-title IAmContact">
+				<div class="css-shower2-title IAmContact" style="margin-top:10px">
   	        <div class="css-contact-both"></div>
             <div class="css-contact-center" style="width:640px;padding-left:10px">
               <img src="./assets/img/contact_Addr.png" />
@@ -425,7 +425,7 @@
           </div>
           <div style="flex:1"></div>
         </div>
-     		<div class="css-footer-box" style=";">
+     		<div class="css-footer-box">
      			<div style="flex:1"></div>
            <div>
              <img src="./assets/img/logoOnFoot.png" />
@@ -435,9 +435,7 @@
          <div class="css-footer-box" style=";">
       			<div style="flex:1"></div>
             <div>
-
                 版权所有 © 2017 广州汽车集团股份有限公司 粤ICP备17073358号-1
-
       			 </div>
             <div style="flex:1"></div>
           </div>
@@ -994,7 +992,6 @@ export default {
 	width: 100%;
 	background: #4FB4D2;
 	margin-top: 40px;
-	height:300px;
   position:relative;
   float:left;
   text-align: center;
@@ -1014,7 +1011,7 @@ export default {
       padding: 0px;
       font-size:20px;
       display:flex;
-      margin-top: 10px;
+      margin-top: 0px;
       .css-contact-both {
         flex: 1;
       }
@@ -1085,7 +1082,7 @@ export default {
 .css-footer{
   float: left;
 	width: 100%;
-	height:400px;
+	height:300px;
 	background: rgb(54,58,67);
   .css-footer-box {
   	// width: 1140px;
@@ -1098,6 +1095,8 @@ export default {
     	font-weight: normal;
     }
     .css-footer-box-link {
+      font-size: 18px;
+      font-weight: lighter;
       float:left;
       width:120px;
       height:30px;
