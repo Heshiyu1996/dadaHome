@@ -193,7 +193,7 @@
           <div>什么是家具产品3D效果设计</div>
           <div class="css-shower2-title-smalltitle">
               <div style=" flex: 1"></div>
-              <div style="width:750px;font-size:14px;font-family:'宋体';text-align:left">大部分厂家,对于产品打样,产品拍摄都非常头疼,而通过3Dmax快速建立产品模型,快速决定产品打样效果;搭配合适的效果场景,搭配不同的产品颜色和组合,渲染出比一般摄影棚都要好的产品效果图,正是家具产品3D效果设计的核心功能。</div>
+              <div style="width:840px;font-size:16px;font-family:'宋体';text-align:left;margin-top:15px;">大部分厂家,对于产品打样,产品拍摄都非常头疼,而通过3Dmax快速建立产品模型,快速决定产品打样效果;搭配合适的效果场景,搭配不同的产品颜色和组合,渲染出比一般摄影棚都要好的产品效果图,正是家具产品3D效果设计的核心功能。</div>
               <div style=" flex: 1"></div>
           </div>
         </div>
@@ -207,35 +207,35 @@
             </div>
           <div style="flex:1"></div>
     		</div>
-    		<div class="css-intro-content"  style="width:600px;height:150px;padding:40px 0px;">
+    		<div class="css-intro-content 3Ddesc" style="text-align:justify;width:810px;height:150px;padding:40px 0px;">
     			我司旗下的火炬3D设计团队,拥有多位资深3D设计师,专门为家具厂家客户,家具电商客户提供专业的3D效果设计服务,也为搭搭家APP用户提供重要的效果设计支持!我们团队提供完整优质的3D服务,包括产品建模,场景设计,效果渲染,3D动画视频制作等
     		</div>
 
-				<div class="css-intro-content3" style="width:900px;">
+				<div class="css-intro-content3" style="width:1160px;">
 					<div class="css-intro-content3-3D">
 						<div class="css-intro-content3-3D-item">
-              <div style="height:120px;">
+              <div>
                 <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Quick.png" />
               </div>
               <div class="css-intro-content3-3D-item-title">快速高效</div>
               <div class="css-intro-content3-3D-item-desc">家具产品高效打样!产品模型随意更改,能够快速确定好新产品的设计. </div>
             </div>
 						<div class="css-intro-content3-3D-item">
-              <div style="height:120px;">
+              <div>
                 <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Save.png" />
               </div>
               <div class="css-intro-content3-3D-item-title">省力省钱</div>
               <div class="css-intro-content3-3D-item-desc">出图高效,成本低廉!不用实物打样,不用影棚拍摄,省时省力省钱,直接渲染出图. </div>
             </div>
 						<div class="css-intro-content3-3D-item">
-              <div style="height:120px;">
+              <div>
                 <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_DIY.png" />
               </div>
               <div class="css-intro-content3-3D-item-title">随心所欲</div>
               <div class="css-intro-content3-3D-item-desc">颜色和组合任意变化!实物拍摄必须所有产品生产出来,而3D效果在软件里能任意变化颜色和组合. </div>
             </div>
 						<div class="css-intro-content3-3D-item">
-              <div style="height:120px;">
+              <div>
                 <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Real.png" />
               </div>
               <div class="css-intro-content3-3D-item-title">真实体验</div>
@@ -245,54 +245,56 @@
 				</div>
 
     	</div>
-      <div class="css-intro" id="Custom">
+      <div class="css-intro" id="Custom" style="margin-top:140px;">
     		<div class="css-intro-title">
           <div style="flex:1"></div>
-      			<div class="css-intro-title-ask" style="border-bottom:0px solid white">客户案例</div>
+      			<div class="css-intro-title-ask" style="border-bottom:0px solid white;color:black">客户案例</div>
           <div style="flex:1"></div>
         	</div>
-        <div class="css-intro-content3" style="width:845px;">
-          <div class="css-intro-content3-example">
-            <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P1.png"/>
-              <div style="">舒适健康床垫</div>
-    				</div>
-            <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P2.png" />
-              <div style="">高级牛皮地毯</div>
-    				</div>
-            <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P3.png" />
-              <div style="">现代茶几电视柜组合</div>
-    				</div>
-          </div>
-          <div class="css-intro-content3-example">
-            <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P4.png" />
-              <div style="">高档美式沙发</div>
-    				</div>
-            <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P5.png" />
-              <div style="">快乐儿童木床</div>
-    				</div>
-            <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P6.png" />
-              <div style="">北欧简约皮床</div>
-    				</div>
-          </div>
-          <div class="css-intro-content3-example">
-            <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P7.png" />
-              <div style="">高档办公沙发</div>
-    				</div>
-            <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P8.png" />
-              <div style="">高档美式实木床</div>
-    				</div>
-            <div class="css-intro-content3-example-item">
-              <img src="./assets/img/cus_P9.png" />
-              <div style="">板式高低儿童床</div>
-    				</div>
+        <div class="css-intro-content3" style="width:1260px;">
+          <div style="margin: 0 auto;width:1150px;">
+            <div class="css-intro-content3-example">
+              <div class="css-intro-content3-example-item">
+                <img src="./assets/img/cus_P1.png"/>
+                <div style="">舒适健康床垫</div>
+      				</div>
+              <div class="css-intro-content3-example-item">
+                <img src="./assets/img/cus_P2.png" />
+                <div style="">高级牛皮地毯</div>
+      				</div>
+              <div class="css-intro-content3-example-item">
+                <img src="./assets/img/cus_P3.png" />
+                <div style="">现代茶几电视柜组合</div>
+      				</div>
+            </div>
+            <div class="css-intro-content3-example">
+              <div class="css-intro-content3-example-item">
+                <img src="./assets/img/cus_P4.png" />
+                <div style="">高档美式沙发</div>
+      				</div>
+              <div class="css-intro-content3-example-item">
+                <img src="./assets/img/cus_P5.png" />
+                <div style="">快乐儿童木床</div>
+      				</div>
+              <div class="css-intro-content3-example-item">
+                <img src="./assets/img/cus_P6.png" />
+                <div style="">北欧简约皮床</div>
+      				</div>
+            </div>
+            <div class="css-intro-content3-example">
+              <div class="css-intro-content3-example-item">
+                <img src="./assets/img/cus_P7.png" />
+                <div style="">高档办公沙发</div>
+      				</div>
+              <div class="css-intro-content3-example-item">
+                <img src="./assets/img/cus_P8.png" />
+                <div style="">高档美式实木床</div>
+      				</div>
+              <div class="css-intro-content3-example-item">
+                <img src="./assets/img/cus_P9.png" />
+                <div style="">板式高低儿童床</div>
+      				</div>
+            </div>
           </div>
         </div>
         <div class="css-intro-btnmore">
@@ -657,7 +659,7 @@ export default {
     .css-intro-title-ask {
       float:left;
       border-bottom: 1px solid #4FB4D2;
-      font-size: 32px;
+      font-size: 34px;
       line-height: 45px;
       letter-spacing: 3px;
     }
@@ -665,7 +667,7 @@ export default {
   .css-intro-content3 {
       width: 1200px;
       margin: 0 auto;
-      margin-top: 20px;
+      margin-top: 60px;
       color: #606B70;
 
       .css-intro-content3-card {
@@ -709,44 +711,51 @@ export default {
           height:100%;
           margin:0px 13px;
           .css-intro-content3-3D-item-pic {
-            width:185px;
+            width:260px;
+            height: 175px;
             border-radius:5px;
           }
           .css-intro-content3-3D-item-title {
             height:60px;
-            padding:25px 0px;
-            font-size:16px;
-            font-weight:500
+            padding:20px 0px;
+            font-size:20px;
           }
           .css-intro-content3-3D-item-desc {
-            text-align:left;
             padding-left:10px;
+            font-size: 14px;
+            font-weight: lighter;
+            font-family: '宋体';
+            line-height: 25px;
+            width: 240px;
+            margin: 0 auto;
+            text-align: center;
           }
         }
       }
       .css-intro-content3-example {
         width:100%;
-        height:235px;
+        height:330px;
         margin-top: 35px;
         img {
           float:left;
-          width:260px;
-          height:200px;
+          width:365px;
+          height:290px;
         }
 
         .css-intro-content3-example-item {
           float:left;
           border:1px solid #D2D2D2;
-          width:31%;
+          width:365px;
           height:100%;
           margin:0px 9px;
           div {
             height:30px;
             width:100%;
             float:left;
-            font-size:15px;
+            font-size:21px;
             margin:2px 0px;
             padding:4px 0px;
+            font-family: '黑体';
           }
         }
 
@@ -853,12 +862,12 @@ export default {
     	height: 56px;
     	line-height: 54px;
     	font-size: 18px;
-    	color: #ededff;
+    	color: white;
     	background: #30A9BE;
     	border-radius: 25px;
     	margin: 0px 10px 40px;
     	box-shadow: 4px 4px rgba(0,0,0,0.1);
-
+      font-family: '宋体';
 
     	transition: background .3s, color .3s, border .3s;
     	-moz-transition: background .3s, color .3s, border .3s; /* Firefox 4 */
@@ -867,14 +876,15 @@ export default {
     }
 
     a span{
-    	font-family: arial;
+      padding-left: 10px;
+      font-family: '宋体';
     	font-size: 14px;
     	letter-spacing: 10px;
     }
 
     a:hover{
     	background: rgb(53, 197, 212);
-    	color: #ededff;
+    	color: white;
     }
   }
 
@@ -973,7 +983,7 @@ export default {
 	width: 100%;
 	background: #4FB4D2;
 	margin-top: 40px;
-	height:200px;
+	height:300px;
   position:relative;
   float:left;
   text-align: center;
@@ -983,10 +993,10 @@ export default {
   	letter-spacing: 2px;
   	font-family: '微软雅黑';
   	color: #fff;
-  	font-size: 26px;
+  	font-size: 36px;
   	letter-spacing: 2px;
     font-weight: normal;
-    padding: 45px 0px;
+    padding: 65px 0px;
     &.IAmContact {
       width:100%;
       height:30px;
