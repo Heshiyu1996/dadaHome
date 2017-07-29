@@ -45,7 +45,7 @@
     	</div>
 
       <div class="css-body " id="Index">
-        <img class="css-body-bg" src="/static/img/bg1.c36ac8f.png"></img>
+        <img class="css-body-bg" src="./assets/img/bg1.png"></img>
          <div class="css-body-ad">
             <div class="css-body-ad-title">搭搭家</div>
             <div class="css-body-ad-engtitle">DADAHOME</div>
@@ -187,7 +187,7 @@
     			</div>
     		</div>
     	</div>
-      <div class="css-shower2"  id="3D">
+      <div class="css-shower2"  id="3D" style="margin-top:0px">
         <div class="css-shower2-title">
           <div>什么是家具产品3D效果设计</div>
           <div class="css-shower2-title-smalltitle">
@@ -1014,9 +1014,9 @@ export default {
       .css-intro2-content-analysis {
             float:left;
             height:815px;
-            margin-left: -155px;
+            margin-left: -60px;
             .css-intro2-content-analysis-img{
-              height:100%;
+              height:85%;
             }
       }
   }
@@ -1156,6 +1156,6 @@ export default {
 .css-line {
   width:100%;
   border-top:40px solid #4FB4D2;
-  margin-top:-4px;
+  margin-top:-6px;
 }
 </style>
