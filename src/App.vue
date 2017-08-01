@@ -4,12 +4,13 @@
     		<div class="css-login" style="display:flex">
           <div style="flex:2"></div>
           <div class="css-login-btn">
-            <a href="#">
-              登录
-            </a>|
+            <a href="http://www.dadahome3d.com/login">
+              企业登录
+            </a>
+            <!-- |
             <a href="#">
               注册
-            </a>
+            </a> -->
           </div>
             <div style="flex:2"></div>
     		</div>
@@ -49,11 +50,15 @@
          <div class="css-body-ad">
             <div class="css-body-ad-title">搭搭家</div>
             <div class="css-body-ad-engtitle">DADAHOME</div>
-            <div class="css-body-ad-desc">搭搭家是一款SaaS模式的企业移动销售云服务展示软件系统，专门为企业提供更高效更优质的品牌营销，产品展示，网络传播，以及强大的产品即时搭配功能等服务。 </div>
+            <div class="css-body-ad-desc">搭搭家APP是一款SaaS模式的企业移动销售云服务展示软件系统，专门为企业提供更高效更优质的品牌营销，产品展示，网络传播，以及强大的产品即时搭配功能等服务。 </div>
             <div class="css-body-ad-btn">
-              <a href="javascript:void(0)">
+              <a href="javascript:void(0)" @click="scroll('Contact');">
                 <img  class="css-body-ad-btn-img" src="./assets/img/iphone.png" />
-                <div  class="css-body-ad-btn-desc">S E E &nbsp;&nbsp;O N &nbsp;&nbsp;A P P S T O R E</div>
+                    <div  class="css-body-ad-btn-desc">
+                      S E E &nbsp;&nbsp;O N &nbsp;&nbsp;A P P S T O R E
+
+                    </div>
+
               </a>
             </div>
         </div>
@@ -71,7 +76,7 @@
           <div style="flex:1"></div>
     		</div>
     		<div class="css-intro-content">
-    			搭搭家是一款SaaS模式的企业移动销售云服务展示软件系统，专门为企业提供更高效更优质的品牌营销，产品展示，网络传播，以及强大的产品即时搭配功能等服务。
+    			搭搭家APP是一款SaaS模式的企业移动销售云服务展示软件系统，专门为家具品牌企业提供更高效更优质的品牌营销，产品展示，网络传播，以及强大的产品即时搭配功能等服务。
     		</div>
     	</div>
     	<div class="css-intro">
@@ -129,7 +134,7 @@
     		<div class="css-intro-content3" style="width:1240px;">
       		<div style="margin:0 auto;width:1035px;">
             <div class="css-intro-content3-card">
-                <div style="height:169px">
+                <div style="height:187.22px">
                     <img class="css-intro-content3-card-icon" src="./assets/img/func_Build.png" />
                     <div class="css-intro-content3-card-name" >快速搭配</div>
                     <div class="css-intro-content3-card-desc">
@@ -192,7 +197,7 @@
           <div>什么是家具产品3D效果设计</div>
           <div class="css-shower2-title-smalltitle">
               <div style=" flex: 1"></div>
-              <div style="width:840px;font-size:16px;font-family:'宋体';text-align:left;margin-top:15px;">大部分厂家,对于产品打样,产品拍摄都非常头疼,而通过3Dmax快速建立产品模型,快速决定产品打样效果;搭配合适的效果场景,搭配不同的产品颜色和组合,渲染出比一般摄影棚都要好的产品效果图,正是家具产品3D效果设计的核心功能。</div>
+              <div class="css-shower2-title-smalltitle-desc">大部分厂家,对于产品打样,产品拍摄都非常头疼,而通过3Dmax快速建立产品模型,快速决定产品打样效果;搭配合适的效果场景,搭配不同的产品颜色和组合,渲染出比一般摄影棚都要好的产品效果图,正是家具产品3D效果设计的核心功能。</div>
               <div style=" flex: 1"></div>
           </div>
         </div>
@@ -297,8 +302,8 @@
           </div>
         </div>
         <div class="css-intro-btnmore">
-          <a href="#">
-            <span>查看更多</span>
+					<a href="javascript:void(0)" @click="scroll('Contact');">
+            <span>联系我们</span>
           </a>
         </div>
       </div>
@@ -327,11 +332,11 @@
               <div style="">搭搭家办公大楼</div>
             </div>
 						<div class="css-intro-content3-example-item">
-              <img src="./assets/img/team_Office.png" />
+              <img src="./assets/img/team_Office.jpg" />
               <div style="">搭搭家办公环境</div>
             </div>
 						<div class="css-intro-content3-example-item">
-              <img src="./assets/img/team_Members.jpg" />
+              <img src="./assets/img/team_Member.jpg" />
               <div style="">搭搭家开发团队</div>
             </div>
 					</div>
@@ -351,7 +356,7 @@
               <div style="">火炬3D办公大楼</div>
             </div>
 						<div class="css-intro-content3-example-item">
-              <img src="./assets/img/team_3DOffice.png" />
+              <img src="./assets/img/team_3DOffice.jpg" />
               <div style="">火炬3D办公环境</div>
             </div>
 						<div class="css-intro-content3-example-item">
@@ -375,7 +380,7 @@
               <div style="">德宝电商办公大楼</div>
             </div>
   					<div class="css-intro-content3-example-item">
-              <img src="./assets/img/team_DBOffice.png" />
+              <img src="./assets/img/team_DBOffice.jpg" />
               <div style="">德宝电商办公环境</div>
             </div>
   					<div class="css-intro-content3-example-item">
@@ -402,7 +407,7 @@
 				</div>
 				<div class="css-shower2-title IAmContact" style="margin-top:10px">
   	        <div class="css-contact-both"></div>
-            <div class="css-contact-center" style="width:640px;padding-left:10px">
+            <div class="css-contact-center" style="width:660px;padding-left:10px">
               <img src="./assets/img/contact_Addr.png" />
               <div>地址 : 佛山市顺德区龙江镇涌口乐龙国际创意城E座303 </div>
             </div>
@@ -446,7 +451,7 @@
          <div class="css-footer-box" style=";">
       			<div style="flex:1"></div>
             <div>
-                版权所有 © 2017 搭搭家有限公司 粤ICP备17073358号-1
+                版权所有 © 2017 佛山市楚翘科技有限公司 粤ICP备17073358号-1
       			 </div>
             <div style="flex:1"></div>
           </div>
@@ -504,8 +509,9 @@ export default {
   font-size: 12px;
   color:#666666;
   .css-login-btn {
+    line-height: 20px;
     width:1140px;
-    padding-right:30px
+    padding-right:20px
   }
 }
 .css-header {
@@ -540,13 +546,8 @@ export default {
     	font-size: 16px;
     	color: #606B70;
       text-align: center;
-      border-radius: 2px;
     	padding: 35px 10px;
-      margin-top:1px;
-      margin-left:2px;
-      margin-right: 2px;
-      margin-bottom:  2px;
-      height:97px;
+      height:100px;
 
       transition: background .3s, color .3s, border .3s;
       -moz-transition: background .3s, color .3s, border .3s; /* Firefox 4 */
@@ -558,7 +559,7 @@ export default {
     ul li a:hover{
       background: #4FB4D2;
       color: white;
-      box-shadow: 2px 2px rgba(0,0,0,0.1);
+      box-shadow: 1px 1px rgba(0,0,0,0.1);
     }
   }
 }
@@ -579,13 +580,14 @@ export default {
     }
     .css-body-ad-engtitle {
       font-size: 28px;
+      letter-spacing: 2.7px;
     }
     .css-body-ad-desc {
       margin-top: 10px;
       width: 435px;
       font-family: '微软雅黑';
       letter-spacing: 2px;
-      font-weight: lighter;;
+      font-weight: lighter;
       line-height: 25px;
       text-align: justify;
       text-justify: inter-ideograph;/*IE*/
@@ -727,10 +729,12 @@ export default {
         .css-intro-content3-card-desc {
           margin-top: 10px;
           font-family: '宋体';
-          font-size: 16px;
+          font-size: 15px;
           color: #676767;
           text-align: justify;
-
+          text-justify: inter-ideograph;
+          line-height: 20px;
+          letter-spacing: 0.4px;
         }
       }
       .css-intro-content3-card2 {
@@ -882,11 +886,12 @@ export default {
     }
   }
   .css-intro-content {
-  	width: 750px;
+  	width: 760px;
   	margin: 0 auto;
   	font-size: 18px;
   	color: #676767;
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-ideograph;
     letter-spacing: 1px;
     font-family: '微软雅黑';
     font-weight: lighter;;
@@ -1058,7 +1063,9 @@ export default {
         flex: 1;
       }
       .css-contact-center {
-        width: 350px;
+        font-size: 22px;
+        width: 360px;
+        font-weight: 600;
         img {
           float:left;
           width:25px;
@@ -1073,7 +1080,14 @@ export default {
       .css-shower2-title-smalltitle {
         font-size:14px;
         margin-top:10px;
-        display:flex
+        display:flex;
+        .css-shower2-title-smalltitle-desc {
+          width:840px;
+          font-size:16px;
+          font-family:'宋体';
+          text-align:left;
+          margin-top:15px;
+        }
       }
   }
 }
