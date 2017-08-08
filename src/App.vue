@@ -46,7 +46,7 @@
     	</div>
 
       <div class="css-body " id="Index">
-        <img class="css-body-bg" src="./assets/img/bg1.png"></img>
+        <img class="css-body-bg" src="./assets/img/bg1.jpg"></img>
          <div class="css-body-ad">
             <div class="css-body-ad-title">搭搭家</div>
             <div class="css-body-ad-engtitle">DADAHOME</div>
@@ -219,28 +219,28 @@
 					<div class="css-intro-content3-3D">
 						<div class="css-intro-content3-3D-item">
               <div>
-                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Quick.png" />
+                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Quick.jpg" />
               </div>
               <div class="css-intro-content3-3D-item-title">快速高效</div>
               <div class="css-intro-content3-3D-item-desc">家具产品高效打样!产品模型随意更改,能够快速确定好新产品的设计. </div>
             </div>
 						<div class="css-intro-content3-3D-item">
               <div>
-                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Save.png" />
+                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Save.jpg" />
               </div>
               <div class="css-intro-content3-3D-item-title">省力省钱</div>
               <div class="css-intro-content3-3D-item-desc">出图高效,成本低廉!不用实物打样,不用影棚拍摄,省时省力省钱,直接渲染出图. </div>
             </div>
 						<div class="css-intro-content3-3D-item">
               <div>
-                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_DIY.png" />
+                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_DIY.jpg" />
               </div>
               <div class="css-intro-content3-3D-item-title">随心所欲</div>
               <div class="css-intro-content3-3D-item-desc">颜色和组合任意变化!实物拍摄必须所有产品生产出来,而3D效果在软件里能任意变化颜色和组合. </div>
             </div>
 						<div class="css-intro-content3-3D-item">
               <div>
-                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Real.png" />
+                <img class="css-intro-content3-3D-item-pic" height="100%" src="./assets/img/3D_Real.jpg" />
               </div>
               <div class="css-intro-content3-3D-item-title">真实体验</div>
               <div class="css-intro-content3-3D-item-desc">AR/VR虚拟现实时代来临!VR时代的来临,产品3D模型化正是这一切的基础. </div>
@@ -259,43 +259,43 @@
           <div style="margin: 0 auto;width:1150px;">
             <div class="css-intro-content3-example">
               <div class="css-intro-content3-example-item">
-                <img src="./assets/img/cus_P1.png"/>
+                <img src="./assets/img/cus_P1.jpg"/>
                 <div style="">舒适健康床垫</div>
       				</div>
               <div class="css-intro-content3-example-item">
-                <img src="./assets/img/cus_P2.png" />
+                <img src="./assets/img/cus_P2.jpg" />
                 <div style="">高级牛皮地毯</div>
       				</div>
               <div class="css-intro-content3-example-item">
-                <img src="./assets/img/cus_P3.png" />
+                <img src="./assets/img/cus_P3.jpg" />
                 <div style="">现代茶几电视柜组合</div>
       				</div>
             </div>
             <div class="css-intro-content3-example">
               <div class="css-intro-content3-example-item">
-                <img src="./assets/img/cus_P4.png" />
+                <img src="./assets/img/cus_P4.jpg" />
                 <div style="">高档美式沙发</div>
       				</div>
               <div class="css-intro-content3-example-item">
-                <img src="./assets/img/cus_P5.png" />
+                <img src="./assets/img/cus_P5.jpg" />
                 <div style="">快乐儿童木床</div>
       				</div>
               <div class="css-intro-content3-example-item">
-                <img src="./assets/img/cus_P6.png" />
+                <img src="./assets/img/cus_P6.jpg" />
                 <div style="">北欧简约皮床</div>
       				</div>
             </div>
             <div class="css-intro-content3-example">
               <div class="css-intro-content3-example-item">
-                <img src="./assets/img/cus_P7.png" />
+                <img src="./assets/img/cus_P7.jpg" />
                 <div style="">高档办公沙发</div>
       				</div>
               <div class="css-intro-content3-example-item">
-                <img src="./assets/img/cus_P8.png" />
+                <img src="./assets/img/cus_P8.jpg" />
                 <div style="">高档美式实木床</div>
       				</div>
               <div class="css-intro-content3-example-item">
-                <img src="./assets/img/cus_P9.png" />
+                <img src="./assets/img/cus_P9.jpg" />
                 <div style="">板式高低儿童床</div>
       				</div>
             </div>
@@ -308,7 +308,7 @@
         </div>
       </div>
 
-      <div class="css-team" id="Company">
+      <div class="css-team" id="Company" :style="bg_team_title0">
 			  <div>公司简介</div>
 				<div class="css-team-title">
               <div style="flex: 1"></div>
@@ -468,6 +468,9 @@ import scroll from './assets/js/hovertreescroll.js'
 export default {
   data(){
     return{
+      bg_team_title0:{
+        backgroundImage:'url(' + require('./assets/img/team_title0.jpg') + ')'
+      }
     }
   },
   methods:{
@@ -1104,7 +1107,7 @@ export default {
   float: left;
 	width: 100%;
 	height: 350px;
-	background: url(./assets/img/team_title0.png) no-repeat center center;
+	// background: url(./assets/img/team_title0.jpg) no-repeat center center;
 	background-size: cover;
   letter-spacing: 2px;
   font-family: '微软雅黑';
